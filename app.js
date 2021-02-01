@@ -7,7 +7,7 @@ const kelvinInput = document.querySelector('#kelvin > input');
 
 //parseFLoat() is uded here because javascript reconizes cTemp as a string
 //therefore, it converts 273.15 to a string and concatinates. parseFloat()
-//converts cTemp to an floating interger    
+//converts celsiusTemp to an floating integer    
 
 function roundDown(num) {
     return Math.round(num * 100) / 100;
